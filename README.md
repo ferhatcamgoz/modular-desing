@@ -26,7 +26,7 @@ Unfortunately, I believe microservices have further exacerbated this issue. In t
 Above, I provided a simple example of the communication architecture stemming from the dependency architecture. A mandatory need for a communication technology that will work seamlessly between the two services that will communicate in the communication architecture has arisen. But I am a software engineer. I would prefer to work directly with domain code rather than HTTP (at least I can customize it according to my preferences).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-In this project, dependencies have been managed in the simplest way. Encapsulation and Java 9 Modules.
+In this project, dependencies have been managed in the simplest way. ***Encapsulation**** and ***Java 9 Modules***.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Inside each module is a module-info.java file. Thanks to this file, it has been definitively determined which packages within the module will communicate with the outside world and which models it will use. Here, dependency management is done using Spring for Dependency Injection, and it is possible to build an extensible structure using different frameworks.

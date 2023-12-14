@@ -1,10 +1,6 @@
 # modular-desing
 This repository contains an example of how a software project can be written in a more modular way. 
 
-# springboot-sample-app
-
-Minimal [Spring Boot](http://projects.spring.io/spring-boot/) sample app.
-
 ## Requirements
 
 For building and running the application you need:
@@ -19,6 +15,7 @@ Before running the application, we must install the 3rd party libraries (spring,
 ```bash
 mvn clean install
 ```
+
 ```bash 
 cd application
 ```

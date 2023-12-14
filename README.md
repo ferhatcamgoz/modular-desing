@@ -1,5 +1,6 @@
 # modular-desing
 This repository contains an example of how a software project can be written in a more modular way. 
+   While developing the project, I used the modular structure that comes with Java 9 and Spring Boot 3 (actually not necessary), and H2DB dependencies for database operations. I designed the project package structure in accordance with the Package by Feature philosophy. My motivation for organising the package structure according to feature is to increase the readability of the project, to manage the dependencies more easily and precisely (I point out the dependencies between features or modules, not those defined in pom.xml) and to easily convert the project into microservices when the scale of the project exceeds the monolith structure in the future. 
 
 ## Requirements
 

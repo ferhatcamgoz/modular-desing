@@ -1,8 +1,16 @@
+
 # Modular Desing
 This repository contains an example of how a software project can be written in a more modular way. 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ![image info](https://miro.medium.com/v2/resize:fit:720/format:webp/1*CAotacFcEKIO7aY97tcb5Q.png) 
+
+## Table of Contents
+* [Motivation](#Motivation)
+* [Requirements](#Requirements)
+* [Technologies Used](#Technologies-Used)
+* [Running the application locally](#Running-the-application-locally)
+* [License](#License)
 
 ## Motivation
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -51,6 +59,16 @@ Notice that 2/3 of the reasons I listed above for transitioning to microservices
 
 ## Requirements
 
+### Technologies Used
+
+You can use any programming language for implementing Modular Desing. Here is the list of technologies we used for the demo application;
+
+* Spring Boot 3
+* Java 17
+* Maven 3.9.5
+* Mono Repo
+* H2DB
+
 For building and running the application you need:
 
 - [JDK 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
@@ -72,3 +90,8 @@ Then I go into the application module where the main method of the application i
  ```bash 
  mvn spring-boot:run
 ```
+
+
+### License
+
+Distributed under the MIT License. See [LICENSE](LICENSE.txt) for more information.

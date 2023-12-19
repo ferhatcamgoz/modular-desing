@@ -9,6 +9,6 @@ module basket {
     requires spring.data.jpa;
     requires jakarta.persistence;
     requires common;
-    exports com.layer.basket.customer;
-    exports com.layer.basket.model;
+    exports com.layer.basket.customer to customer;
+    exports com.layer.basket.model to customer;
 }

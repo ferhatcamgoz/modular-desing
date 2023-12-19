@@ -7,8 +7,6 @@ module product {
     requires common;
     requires spring.web;
     requires spring.data.jpa;
-    exports com.layer.product.basket;
-    exports com.layer.product.model;
-    opens com.layer.product to application;
-
+    exports com.layer.product.basket to basket;
+    exports com.layer.product.model to basket;
 }

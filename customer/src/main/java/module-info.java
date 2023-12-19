@@ -10,6 +10,4 @@ module customer {
     requires common;
     requires spring.data.jpa;
     requires spring.web;
-    opens com.layer.customer to application;
-
 }

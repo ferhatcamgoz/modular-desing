@@ -3,7 +3,7 @@
 This repository contains an example of how a software project can be written in a more modular way. 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-![image info](https://miro.medium.com/v2/resize:fit:720/format:webp/1*CAotacFcEKIO7aY97tcb5Q.png) 
+![image info](https://drive.google.com/file/d/1pturX4mreLbRa0NwxhDpK2C5uen0T22O/view?usp=sharing) 
 
 ## Table of Contents
 * [Motivation](#Motivation)
